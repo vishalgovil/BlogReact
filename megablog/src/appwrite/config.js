@@ -8,7 +8,7 @@ export class Service{
     constructor(){
      this.client
      .setEndpoint(conf.appwriteUrl)
-     .setProject(conf.appwriteProjectId); 
+     .setProject(conf.appwriteProject); 
        
     }
 }
